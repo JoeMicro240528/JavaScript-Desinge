@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	  <meta charset="utf-8">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	  <title>JavaScript Desinge</title>
+    	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  	  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<!-- Start Settings Box -->
+  <div class="settings-box">
+      <div class="toggle-settings">
+          <i class="fa fa-gear "></i>
+      </div>
+      <div class="settings-container">
+         <div class="option-box">
+              <h4>Colors</h4>
+              <ul class="color-list">
+               <li class="active" data-color="#ff9800"></li>
+                 <li data-color="#e91e63"></li>
+                 <li data-color="#009688"></li>
+                 <li data-color="#03a9f4"></li>
+                 <li data-color="#4caf50"></li>
+              </ul>
+         </div>  
+         <div class="option-box">
+              <h4>Random Background</h4>
+               <div class="random-background">
+                    <span class="yes active"  data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+               </div>
+          </div>
+          <div class="option-box">
+              <h4>Show Bullets</h4>
+               <div class="bullets-option">
+                    <span class="yes active"  data-display="show">Show</span>
+                    <span class="no" data-display="hide">Hide</span>
+               </div>
+          </div>
+          <!-- Reset Option -->
+          <button class="reset-option">Reset Option</button>
+      </div>
+  </div>
+<!-- End Settings Box -->
+
+<!-- Start Nav Bullets  -->
+  <div class="nav-bullets">
+         <div class="bullet" data-section="about-us">
+             <div class="tooltip" >About us</div>
+         </div>
+         <div class="bullet" data-section="skills">
+             <div class="tooltip">Skills</div>
+         </div>
+         <div class="bullet" data-section="gallery">
+             <div class="tooltip">Gallery</div>
+         </div>
+         <div class="bullet" data-section="timeline">
+            <div class="tooltip" >Timeline</div>
+          </div>
+           <div class="bullet" data-section="features">
+            <div class="tooltip" >Features</div>
+          </div>
+          <div class="bullet" data-section="testimonials">
+            <div class="tooltip" >Testimonials</div>
+          </div>
+  </div>
+<!-- Start Nav Bullets  -->
+
+<!-- Start Landing-Page -->
+  <div class="landing-page">
+  	  <div class="ovrelay"></div>
+      <div class="container">
+  	  <div class="header-area">
+  	     <div class="logo">JavaScript Desinge</div>
+  	  	   <ul class="links ">
+  	  	   	  <li class="active" ><a href="#"  data-section="about-us">About</a></li>
+  	  	   	  <li ><a href="#"  data-section="skills">Skills</a></li>
+  	  	   	  <li><a href="#"   data-section="gallery">Gallery</a></li>
+  	  	      <li ><a href="#"  data-section="timeline">Timeline</a></li>
+              <li ><a href="#"  data-section="features">Features</a></li>
+              <li ><a href="#"  data-section="testimonials">Testimonials</a></li>
+  	  	   </ul>
+           <button class="toggle-menu">
+               <span></span>
+               <span></span>
+               <span></span>
+           </button>
+  	   </div>
+       <div class="introduction-text">
+       	  <h1>We Are <span>Creative </span>Agency </h1>
+       	  <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit, sed do eiusmod
+       	  tempor incididunt ut dolor sit amet, consectetur</p>
+       </div>
+  </div>
+</div>
+<!-- End Landing-Page -->
+
+<!-- Start About Us  -->
+       <div class="about-us">
+            <div class="info-box">
+                <h2>About Us </h2>
+                <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="img-box">
+                 <img src="imgs/about-us.jpg" alt=""/>
+            </div>
+       </div>
+<!-- End About Us -->
+
+<!-- Start Our Skills -->
+  <div class=" skills">
+      <div class="container">
+           <h2>Our Skills</h2>
+           <div class="skill-box">
+              <div class="skill-name">HTML</div>
+              <div class="skill-progress">
+                    <span  data-progress="95%"></span>
+              </div>
+          </div>
+           <div class="skill-box">
+              <div class="skill-name">CSS</div>
+              <div class="skill-progress">
+                    <span  data-progress="80%"></span>
+              </div>
+          </div>
+          <div class="skill-box">
+              <div class="skill-name">JAVASCRIPT</div>
+              <div class="skill-progress">
+                    <span data-progress="75%"></span>
+              </div>
+          </div>
+          <div class="skill-box">
+              <div class="skill-name">BOOTSTRAP</div>
+              <div class="skill-progress">
+                    <span  data-progress="90%"></span>
+              </div>
+          </div>
+           <div class="skill-box">
+              <div class="skill-name">SASS</div>
+              <div class="skill-progress">
+                    <span  data-progress="80%"></span>
+              </div>
+          </div>
+          <div class="skill-box">
+              <div class="skill-name">REACT JS</div>
+              <div class="skill-progress">
+                    <span data-progress="70%"></span>
+              </div>
+          </div>
+     </div>
+</div>
+<!-- End Our Skills -->
+
+<!-- Start Gallery  -->
+   <div class="gallery">
+      <div class="container">
+          <h2>Our Gallery</h2>
+          <div class="imges-box">
+              <img src="imgs/01.jpg" alt="Image One"/>
+              <img src="imgs/02.jpg" alt="Image Tow"/>
+              <img src="imgs/03.jpg" alt="Image There"/>
+              <img src="imgs/04.jpg" alt="Image Four "/>
+              <img src="imgs/05.jpg" alt="Image Five"/>
+              <img src="imgs/06.png" alt=""/>
+              <img src="imgs/07.jpg" alt=""/>
+              <img src="imgs/08.jpg" alt=""/>
+              <img src="imgs/09.jpg" alt=""/>
+              <img src="imgs/10.jpg" alt=""/>
+          </div>
+      </div>
+   </div>
+<!-- End Gallery -->
+
+<!-- Start TimeLine -->
+    <div class="timeline">
+        <div class="container">
+             <div class="timeline-content">
+                  <div class="year">2020</div>
+                  <div class="left">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+                  <div class="right">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+             </div>
+             <div class="timeline-content">
+                  <div class="year">2021</div>
+                  <div class="left">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+                  <div class="right">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+             </div>
+             <div class="timeline-content">
+                  <div class="year">2022</div>
+                  <div class="left">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+                  <div class="right">
+                       <div class="content">
+                            <h3>Testing Heading</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco 
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </div>
+                  </div>
+             </div>
+        </div>
+    </div>
+<!-- End TimeLine -->
+
+<!-- Start Features -->
+      <div class="features">
+          <h2>Our Featuers</h2>
+               <div class="feat-box">
+                   <img src="imgs/Icon_01.png" alt=""/>
+                   <h4>Development</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="feat-box">
+                   <img src="imgs/Icon_02.png" alt=""/>
+                   <h4>Fast Content</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="feat-box">
+                   <img src="imgs/Icon_03.png" alt=""/>
+                   <h4>Secur Admain</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="feat-box">
+                   <img src="imgs/Icon_04.png" alt=""/>
+                   <h4>Job Avublity</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="feat-box">
+                   <img src="imgs/Icon_05.png" alt=""/>
+                   <h4>Tool Golopal</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="feat-box">
+                   <img src="imgs/Icon_06.png" alt=""/>
+                   <h4>First Employe</h4>
+                   <p>We Are Profesional officia deserunt mollit anim id exercitation laborum.</p>
+               </div>
+               <div class="clearfix"></div>
+           </div>
+<!-- End Features -->
+
+<!-- Start Testimonials -->
+  <div class="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-content">
+          <div class="tes-box">
+            <p>Your Job is  Profesional officia deserunt mollit anim id exercitation laborum.</p>
+            <div class="person-info">
+                <img src="imgs/Icon_01.png" alt=""/>
+                <h4>Ahmed Mosaad</h4>
+                <p>CEO At Company</p>
+            </div>
+
+          </div>
+          <div class="tes-box">
+             <p>Your Job is  Profesional officia deserunt mollit anim id exercitation laborum.</p>
+             <div class="person-info">
+                <img src="imgs/Icon_02.png" alt=""/>
+                <h4>Khali Osman</h4>
+                <p>Miacrosft At Company</p>
+            </div>
+          </div>
+          <div class="tes-box">
+             <p>Your Job is  Profesional officia deserunt mollit anim id exercitation laborum.</p>
+             <div class="person-info">
+                <img src="imgs/Icon_06.png" alt=""/>
+                <h4>Ali Malole</h4>
+                <p>Google At Company</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- End  Testimonials -->
+
+<!-- Start Contact Us  -->
+   <div class="contact">
+       <div class="overlay"></div>
+       <div class="contact-content">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="left">
+                  <input type="text" name="username" placeholder="Your Name">
+                  <input type="number" name="phone" placeholder="Your Phone">
+                  <input type="email" name="email" placeholder="Your Email">
+                  <input type="text" name="subjejct" placeholder="Subject">
+                </div>
+                 <div class="right">
+                     <textarea name="message" placeholder="Your Message" ></textarea>
+                     <input type="submit" value="Send">
+                 </div>
+            </form>
+       </div>
+</div>
+<!-- End  Contact Us -->
+<!-- Start Footer  -->
+<footer>Created With Love <i class="fa fa-heart" style="color:red"></i> By Yousef Alboushra</footer>
+<!-- End  Footer -->
+<script type="text/javascript"  src="js/master.js"></script>
+</body>
+</html>
